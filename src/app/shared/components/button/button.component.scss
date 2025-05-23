@@ -1,0 +1,37 @@
+@use "src/styles/abstract/colors" as *;
+$gradient-primary: map-get($gradient-main, "primary");
+$gradient-secondary: map-get($gradient-main, "secondary");
+.button {
+  border-radius: 100px;
+  cursor: pointer;
+  font-weight: 600;
+  padding: 8px 16px;
+  transition: 0.3s;
+  &.default {
+    background-color: $gray-6;
+    color: $white;
+    &:hover {
+      background-color: $gray-5;
+    }
+  }
+  &.golden {
+    background-color: $primary-main;
+    &:hover {
+      background-color: $primary-dark;
+    }
+  }
+  &.golden-gradient {
+    background: $gradient-primary;
+    background: linear-gradient(90deg, $gradient-primary 30%, $gradient-secondary 100%);
+  }
+  &.ghost {
+    background-color: transparent;
+    border: solid 1px;
+    color: $white;
+    &:hover {
+      color: $primary-main;
+    }
+  }
+  &.glowing {
+  }
+}
