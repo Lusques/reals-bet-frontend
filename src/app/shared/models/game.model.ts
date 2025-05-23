@@ -1,8 +1,8 @@
 export interface Game {
   id: string;
-  src: string;
-  alt: string;
-  name: string;
+  imageUrl: string;
+  altText: string;
+  title: string;
   provider?: string;
   tags?: string[];
 }

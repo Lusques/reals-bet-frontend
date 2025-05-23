@@ -1,0 +1,278 @@
+{
+  "banners": [
+    {
+      "id": "banner-1",
+      "imageUrl": "assets/images/home-banner-0.png",
+      "altText": "Jogue os dados e se divirta em Bac Bo Live",
+      "link": ""
+    },
+    {
+      "id": "banner-2",
+      "imageUrl": "assets/images/home-banner-1.png",
+      "altText": "Ele veio para ficar! Touro Sortudo! Confira agora!",
+      "link": ""
+    }
+  ],
+  "gameCategories": [
+    {
+      "id": "category-best-live-games",
+      "iconUrl": "assets/icons/trophy.svg",
+      "title": "Melhores jogos ao vivo",
+      "totalGames": 8,
+      "games": [
+        {
+          "id": "game-football-studio",
+          "imageUrl": "assets/games/football-studio.png",
+          "altText": "FootBall Studio",
+          "title": "FootBall Studio",
+          "provider": "Evolution",
+          "tags": ["Ao Vivo", "Esportes"]
+        },
+        {
+          "id": "game-bac-bo",
+          "imageUrl": "assets/games/bac-bo.png",
+          "altText": "Bac Bo",
+          "title": "Bac Bo",
+          "provider": "Evolution",
+          "tags": ["Ao Vivo", "Dados", "Estratégia"]
+        },
+        {
+          "id": "game-immersive-roulette",
+          "imageUrl": "assets/games/immersive-roulette.png",
+          "altText": "Immersive Roulette",
+          "title": "Immersive Roulette",
+          "provider": "Evolution",
+          "tags": ["Ao Vivo", "Roleta", "Clássico", "Imersivo"]
+        },
+        {
+          "id": "game-football-studio-2",
+          "imageUrl": "assets/games/football-studio.png",
+          "altText": "FootBall Studio",
+          "title": "FootBall Studio",
+          "provider": "Evolution",
+          "tags": ["Ao Vivo", "Esportes"]
+        },
+        {
+          "id": "game-bac-bo-2",
+          "imageUrl": "assets/games/bac-bo.png",
+          "altText": "Bac Bo",
+          "title": "Bac Bo",
+          "provider": "Evolution",
+          "tags": ["Ao Vivo", "Dados", "Estratégia"]
+        },
+        {
+          "id": "game-immersive-roulette-2",
+          "imageUrl": "assets/games/immersive-roulette.png",
+          "altText": "Immersive Roulette",
+          "title": "Immersive Roulette",
+          "provider": "Evolution",
+          "tags": ["Ao Vivo", "Roleta", "Clássico", "Imersivo"]
+        }
+      ]
+    },
+    {
+      "id": "category-roulletes",
+      "iconUrl": "assets/icons/roullete.svg",
+      "totalGames": 10,
+      "games": [
+        {
+          "id": "game-immersive-roulette-3",
+          "imageUrl": "assets/games/immersive-roulette.png",
+          "altText": "Immersive Roulette",
+          "title": "Immersive Roulette",
+          "provider": "Evolution",
+          "tags": ["Ao Vivo", "Roleta", "Clássico", "Imersivo"]
+        },
+        {
+          "id": "game-roullete",
+          "imageUrl": "assets/games/roullete.png",
+          "altText": "Roullete",
+          "title": "Roullete",
+          "provider": "Evolution",
+          "tags": ["Ao Vivo", "Roleta", "Clássico", "Desktop & Mobile"]
+        },
+        {
+          "id": "game-auto-mega-roullete",
+          "imageUrl": "assets/games/auto-mega-roullete.png",
+          "altText": "Auto Mega roulette",
+          "title": "Auto Mega roulette",
+          "provider": "PragmaticPlay",
+          "tags": ["Ao Vivo", "Roleta", "Auto", "Multiplicador", "Dinâmico"]
+        },
+        {
+          "id": "game-immersive-roulette-4",
+          "imageUrl": "assets/games/immersive-roulette.png",
+          "altText": "Immersive Roulette",
+          "title": "Immersive Roulette",
+          "provider": "Evolution",
+          "tags": ["Ao Vivo", "Roleta", "Clássico", "Imersivo"]
+        },
+        {
+          "id": "game-roullete-2",
+          "imageUrl": "assets/games/roullete.png",
+          "altText": "Roullete",
+          "title": "Roullete",
+          "provider": "Evolution",
+          "tags": ["Ao Vivo", "Roleta", "Clássico", "Desktop & Mobile"]
+        },
+        {
+          "id": "game-auto-mega-roullete-2",
+          "imageUrl": "assets/games/auto-mega-roullete.png",
+          "altText": "Auto Mega roulette",
+          "title": "Auto Mega roulette",
+          "provider": "PragmaticPlay",
+          "tags": ["Ao Vivo", "Roleta", "Auto", "Multiplicador", "Dinâmico"]
+        }
+      ]
+    },
+    {
+      "id": "category-baccarat",
+      "iconUrl": "assets/icons/cards.svg",
+      "totalGames": 58,
+      "games": [
+        {
+          "id": "game-baccarat-8",
+          "imageUrl": "assets/games/baccarat-8.png",
+          "altText": "Baccarat 8",
+          "title": "Baccarat 8",
+          "provider": "PragmaticPlay",
+          "tags": ["Ao Vivo", "Cartas", "Baccarat", "Clássico"]
+        },
+        {
+          "id": "game-baccarat-a",
+          "imageUrl": "assets/games/baccarat-a.png",
+          "altText": "Baccarat A",
+          "title": "Baccarat A",
+          "provider": "Evolution",
+          "tags": ["Ao Vivo", "Cartas", "Baccarat", "VIP"]
+        },
+        {
+          "id": "game-baccarat-squeeze",
+          "imageUrl": "assets/games/baccarat-squeeze.png",
+          "altText": "Baccarat Squeeze",
+          "title": "Baccarat Squeeze",
+          "provider": "Evolution",
+          "tags": ["Ao Vivo", "Cartas", "Baccarat", "Squeeze"]
+        },
+        {
+          "id": "game-baccarat-8-2",
+          "imageUrl": "assets/games/baccarat-8.png",
+          "altText": "Baccarat 8",
+          "title": "Baccarat 8",
+          "provider": "PragmaticPlay",
+          "tags": ["Ao Vivo", "Cartas", "Baccarat", "Clássico"]
+        },
+        {
+          "id": "game-baccarat-a-2",
+          "imageUrl": "assets/games/baccarat-a.png",
+          "altText": "Baccarat A",
+          "title": "Baccarat A",
+          "provider": "Evolution",
+          "tags": ["Ao Vivo", "Cartas", "Baccarat", "VIP"]
+        },
+        {
+          "id": "game-baccarat-squeeze-2",
+          "imageUrl": "assets/games/baccarat-squeeze.png",
+          "altText": "Baccarat Squeeze",
+          "title": "Baccarat Squeeze",
+          "provider": "Evolution",
+          "tags": ["Ao Vivo", "Cartas", "Baccarat", "Squeeze"]
+        }
+      ]
+    },
+    {
+      "id": "category-blackjack",
+      "iconUrl": "assets/icons/trophy.svg",
+      "totalGames": 27,
+      "games": [
+        {
+          "id": "game-azure-blackjack-1",
+          "imageUrl": "assets/games/azure-blackjack-1.png",
+          "altText": "Azure BlackJack 1",
+          "title": "Azure BlackJack 1",
+          "provider": "PragmaticPlay",
+          "tags": ["Ao Vivo", "Cartas", "Blackjack", "Azure", "Mesa 1"]
+        },
+        {
+          "id": "game-azure-blackjack-2",
+          "imageUrl": "assets/games/azure-blackjack-2.png",
+          "altText": "Azure BlackJack 2",
+          "title": "Azure BlackJack 2",
+          "provider": "PragmaticPlay",
+          "tags": ["Ao Vivo", "Cartas", "Blackjack", "Azure", "Mesa 2"]
+        },
+        {
+          "id": "game-one-blackJack",
+          "imageUrl": "assets/games/one-blackjack.png",
+          "altText": "One BlackJack",
+          "title": "One BlackJack",
+          "provider": "PragmaticPlay",
+          "tags": ["Ao Vivo", "Cartas", "Blackjack", "One"]
+        },
+        {
+          "id": "game-azure-blackjac-1-2",
+          "imageUrl": "assets/games/azure-blackjack-1.png",
+          "altText": "Azure BlackJack 1",
+          "title": "Azure BlackJack 1",
+          "provider": "PragmaticPlay",
+          "tags": ["Ao Vivo", "Cartas", "Blackjack", "Azure", "Mesa 1"]
+        },
+        {
+          "id": "game-azure-blackjack-2-2",
+          "imageUrl": "assets/games/azure-blackjack-2.png",
+          "altText": "Azure BlackJack 2",
+          "title": "Azure BlackJack 2",
+          "provider": "PragmaticPlay",
+          "tags": ["Ao Vivo", "Cartas", "Blackjack", "Azure", "Mesa 2"]
+        },
+        {
+          "id": "game-one-blackJack-2",
+          "imageUrl": "assets/games/one-blackjack.png",
+          "altText": "One BlackJack",
+          "title": "One BlackJack",
+          "provider": "PragmaticPlay",
+          "tags": ["Ao Vivo", "Cartas", "Blackjack", "One"]
+        }
+      ]
+    },
+    {
+      "id": "category-dice",
+      "iconUrl": "assets/icons/trophy.svg",
+      "totalGames": 4,
+      "games": [
+        {
+          "id": "game-boom-city",
+          "imageUrl": "assets/games/boom-city.png",
+          "altText": "Boom City",
+          "title": "Boom City",
+          "provider": "PragmaticPlay",
+          "tags": ["Ao Vivo", "Game Show", "Dados", "Multiplicador", "Estratégia"]
+        },
+        {
+          "id": "game-mega-sic-bac",
+          "imageUrl": "assets/games/mega-sic-bac.png",
+          "altText": "Mega Sic bac",
+          "title": "Mega Sic bac",
+          "provider": "Play",
+          "tags": ["Ao Vivo", "Dados", "Sic Bo", "Mega Multiplicador", "Rápido"]
+        },
+        {
+          "id": "game-mega-sic-bo",
+          "imageUrl": "assets/games/mega-sic-bo.png",
+          "altText": "Mega Sic Bo",
+          "title": "Mega Sic Bo",
+          "provider": "PragmaticPlay",
+          "tags": ["Ao Vivo", "Dados", "Sic Bo", "Mega Multiplicador", "Popular"]
+        },
+        {
+          "id": "game-sic-bo",
+          "imageUrl": "assets/games/sic-bo.png",
+          "altText": "Sic Bo",
+          "title": "Sic Bo",
+          "provider": "Play",
+          "tags": ["Ao Vivo", "Dados", "Sic Bo", "Clássico"]
+        }
+      ]
+    }
+  ]
+}

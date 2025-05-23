@@ -3,5 +3,5 @@ import { GameCategory } from './game-category.model';
 
 export interface AppData {
   banners: Banner[];
-  gameCategory: GameCategory[];
+  gameCategories: GameCategory[];
 }

@@ -1,6 +1,6 @@
 export interface Banner {
   id: string;
-  src: string;
-  alt: string;
+  imageUrl: string;
+  altText: string;
   link?: string;
 }
