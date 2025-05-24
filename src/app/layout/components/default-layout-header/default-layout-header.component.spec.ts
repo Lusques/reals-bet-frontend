@@ -1,3 +1,5 @@
+  // [WIP]: Testes de responsividade - Necessitam de implementação.
+  // TODO: @Lucas Silva - Prioridade Média: Implementar testes para a lógica de exibição de elementos
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { DefaultLayoutHeaderComponent } from './default-layout-header.component';
 import { SharedModule } from '../../../shared/shared.module';

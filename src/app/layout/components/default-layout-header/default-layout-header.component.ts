@@ -1,5 +1,5 @@
 import { Observable } from 'rxjs';
-import { ScreenSizeService } from 'src/app/shared/services/screen-size.service';
+import { ScreenSizeService } from '../../../shared/services/screen-size.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
