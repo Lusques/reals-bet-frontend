@@ -4,9 +4,10 @@ import { DefaultLayoutComponent } from './default-layout/default-layout.componen
 import { DefaultLayoutHeaderComponent } from './components/default-layout-header/default-layout-header.component';
 import { SharedModule } from '../shared/shared.module';
 import { DefaultLayoutFooterMobileComponent } from './components/default-layout-footer-mobile/default-layout-footer-mobile.component';
+import { DefaultLayoutFooterDesktopComponent } from './components/default-layout-footer-desktop/default-layout-footer-desktop.component';
 
 @NgModule({
-  declarations: [DefaultLayoutComponent, DefaultLayoutHeaderComponent, DefaultLayoutFooterMobileComponent],
+  declarations: [DefaultLayoutComponent, DefaultLayoutHeaderComponent, DefaultLayoutFooterMobileComponent, DefaultLayoutFooterDesktopComponent],
   imports: [CommonModule, SharedModule],
   exports: [DefaultLayoutComponent, DefaultLayoutHeaderComponent],
 })

@@ -8,9 +8,8 @@ describe('DefaultLayoutFooterMobileComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ DefaultLayoutFooterMobileComponent ]
-    })
-    .compileComponents();
+      declarations: [DefaultLayoutFooterMobileComponent],
+    }).compileComponents();
 
     fixture = TestBed.createComponent(DefaultLayoutFooterMobileComponent);
     component = fixture.componentInstance;
