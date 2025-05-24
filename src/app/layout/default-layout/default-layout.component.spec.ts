@@ -1,6 +1,8 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { DefaultLayoutComponent } from './default-layout.component';
+import { SharedModule } from '../../shared/shared.module';
+import { LayoutModule } from '../layout.module';
 
 describe('DefaultLayoutComponent', () => {
   let component: DefaultLayoutComponent;
@@ -8,9 +10,9 @@ describe('DefaultLayoutComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ DefaultLayoutComponent ]
-    })
-    .compileComponents();
+      declarations: [DefaultLayoutComponent],
+      imports: [LayoutModule, SharedModule],
+    }).compileComponents();
 
     fixture = TestBed.createComponent(DefaultLayoutComponent);
     component = fixture.componentInstance;

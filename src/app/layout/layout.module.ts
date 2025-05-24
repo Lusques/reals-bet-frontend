@@ -7,6 +7,6 @@ import { SharedModule } from '../shared/shared.module';
 @NgModule({
   declarations: [DefaultLayoutComponent, DefaultLayoutHeaderComponent],
   imports: [CommonModule, SharedModule],
-  exports: [DefaultLayoutComponent],
+  exports: [DefaultLayoutComponent, DefaultLayoutHeaderComponent],
 })
 export class LayoutModule {}
