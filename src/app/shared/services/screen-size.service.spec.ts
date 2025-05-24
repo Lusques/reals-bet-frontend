@@ -1,30 +1,80 @@
-// [WIP]: Testes do Service - Necessitam de implementação.
-// TODO: @Lucas Silva - Prioridade Média: Implementar testes para a lógica de exibição de elementos
 import { TestBed } from '@angular/core/testing';
 import { ScreenSizeService } from './screen-size.service';
-import {
-  HttpClientTestingModule,
-  HttpTestingController,
-} from '@angular/common/http/testing';
+import { BreakpointObserver, BreakpointState } from '@angular/cdk/layout';
+import { BehaviorSubject, Observable } from 'rxjs';
+import { map } from 'rxjs/operators';
+
+class MockBreakpointObserver {
+  private _matchesSubject = new BehaviorSubject<BreakpointState>({
+    matches: false,
+    breakpoints: {},
+  });
+
+  observe(value: string[] | string): Observable<BreakpointState> {
+    return this._matchesSubject.asObservable();
+  }
+
+  setMatches(matches: boolean) {
+    this._matchesSubject.next({ matches, breakpoints: {} });
+  }
+}
 
 describe('ScreenSizeService', () => {
   let service: ScreenSizeService;
-  let httpTestingController: HttpTestingController;
+  let mockBreakpointObserver: MockBreakpointObserver;
+
   beforeEach(() => {
     TestBed.configureTestingModule({
-      imports: [HttpClientTestingModule],
-      providers: [ScreenSizeService],
+      providers: [
+        ScreenSizeService,
+        { provide: BreakpointObserver, useClass: MockBreakpointObserver },
+      ],
     });
-  });
-  beforeEach(() => {
+
     service = TestBed.inject(ScreenSizeService);
-    httpTestingController = TestBed.inject(HttpTestingController);
-  });
-  afterEach(() => {
-    httpTestingController.verify();
+
+    mockBreakpointObserver = TestBed.inject(
+      BreakpointObserver
+    ) as any as MockBreakpointObserver;
   });
 
-  it('Should be created', () => {
+  it('should be created', () => {
     expect(service).toBeTruthy();
+  });
+
+  it('should return true for isMobile() when the breakpoint matches', (done) => {
+    mockBreakpointObserver.setMatches(true);
+
+    service.isMobile().subscribe((isMobile) => {
+      expect(isMobile).toBeTruthy();
+      done();
+    });
+  });
+
+  it('should return false for isMobile() when the breakpoint does not match', (done) => {
+    mockBreakpointObserver.setMatches(false);
+
+    service.isMobile().subscribe((isMobile) => {
+      expect(isMobile).toBeFalsy();
+      done();
+    });
+  });
+
+  it('should return true for isDesktop() when the breakpoint matches', (done) => {
+    mockBreakpointObserver.setMatches(true);
+
+    service.isDesktop().subscribe((isDesktop) => {
+      expect(isDesktop).toBeTruthy();
+      done();
+    });
+  });
+
+  it('should return false for isDesktop() when the breakpoint does not match', (done) => {
+    mockBreakpointObserver.setMatches(false);
+
+    service.isDesktop().subscribe((isDesktop) => {
+      expect(isDesktop).toBeFalsy();
+      done();
+    });
   });
 });
