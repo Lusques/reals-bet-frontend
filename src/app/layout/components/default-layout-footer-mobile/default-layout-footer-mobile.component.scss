@@ -62,7 +62,7 @@
     opacity: 0;
   }
 }
-@include responsive("md") {
+@include responsive("lg") {
   .footer {
     display: none;
   }
