@@ -5,4 +5,53 @@
   background-color: $black;
   color: $white;
   padding: 48px 0;
+  &__header {
+    border-bottom: solid 1px $gray-5;
+    margin-bottom: 24px;
+    padding-bottom: 48px;
+  }
+  &__content {
+    display: flex;
+    gap: 122px;
+  }
+  &__content-column {
+    flex-grow: 1;
+    &:first-child {
+      max-width: 514px;
+    }
+    &--flex {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+  &__list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  &__navigation-list {
+    & > li > a {
+      color: $gray-2;
+      cursor: pointer;
+      display: block;
+      padding: 8px 0;
+      transition: 0.3s;
+      &:hover {
+        color: $white;
+      }
+    }
+  }
+  &__payments-list,
+  &__social-media-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  &__payments-image {
+    max-width: 91px;
+  }
+  &__social-media-icon {
+    max-width: 28px;
+    cursor: pointer;
+  }
 }
