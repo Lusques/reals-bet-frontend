@@ -17,9 +17,6 @@
     padding: 16px;
     width: 100%;
   }
-  &__navigation {
-    display: none;
-  }
   &__navigation-list {
     @extend .flex-align-center;
     color: $white;

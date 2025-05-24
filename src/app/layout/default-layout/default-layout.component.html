@@ -1,3 +1,7 @@
 <app-default-layout-header></app-default-layout-header>
-<app-default-layout-footer-desktop></app-default-layout-footer-desktop>
-<app-default-layout-footer-mobile></app-default-layout-footer-mobile>
+<app-default-layout-footer-mobile
+  *ngIf="isMobileScreen$ | async"
+></app-default-layout-footer-mobile>
+<app-default-layout-footer-desktop
+  *ngIf="isDesktopScreen$ | async"
+></app-default-layout-footer-desktop>

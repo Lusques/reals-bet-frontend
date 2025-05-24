@@ -62,8 +62,3 @@
     opacity: 0;
   }
 }
-@include responsive("lg") {
-  .footer {
-    display: none;
-  }
-}

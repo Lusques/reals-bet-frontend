@@ -4,7 +4,6 @@
 .footer {
   background-color: $black;
   color: $white;
-  display: none;
   padding: 48px 0;
   &__text {
     &--title {
@@ -64,11 +63,5 @@
   &__social-media-icon {
     max-width: 28px;
     cursor: pointer;
-  }
-}
-
-@include responsive("lg") {
-  .footer {
-    display: block;
   }
 }
