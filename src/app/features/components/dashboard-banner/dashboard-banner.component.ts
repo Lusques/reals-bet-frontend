@@ -1,5 +1,5 @@
-import { AppData } from '@app/shared/models/AppData.model';
-import { Banner } from '@app/shared/models/banner.model';
+import { AppData } from 'src/app/shared/models/AppData.model';
+import { Banner } from 'src/app/shared/models/banner.model';
 import { ApiMockService } from './../../../core/services/api-mock.service';
 import { Component, OnInit } from '@angular/core';
 
