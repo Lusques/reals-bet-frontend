@@ -8,10 +8,18 @@
     max-height: 360px;
     min-height: 195px;
     padding: 0;
+    position: relative;
   }
   &__item {
     flex-grow: 1;
     flex-shrink: 0;
+    &:not(:first-child) {
+      display: none;
+      height: 100%;
+      position: absolute;
+      width: 100%;
+      z-index: 1;
+    }
   }
   &__anchor {
     display: block;

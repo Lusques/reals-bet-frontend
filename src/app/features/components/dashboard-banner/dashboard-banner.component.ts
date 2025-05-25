@@ -14,9 +14,7 @@ export class DashboardBannerComponent implements OnInit {
   ngOnInit(): void {
     this.apiMockService.getAppData().subscribe({
       next: (data: AppData) => {
-        if (data.banners.length > 1)
-          this.bannerSlides = [...data.banners, ...data.banners];
-        else this.bannerSlides = [...data.banners];
+        this.bannerSlides = [...data.banners];
       },
       error: (error) => {
         console.error('Erro ao carregar dados do banner:', error);
