@@ -9,6 +9,7 @@ import { GameCategoryButtonsComponent } from './components/game-category-buttons
 import { GameCategoryHeaderComponent } from './components/game-category-header/game-category-header.component';
 import { GameCategoryWrapperComponent } from './components/game-category-wrapper/game-category-wrapper.component';
 import { GameCategoryCardsComponent } from './components/game-category-cards/game-category-cards.component';
+import { SliceOrAllPipe } from './pipes/slice-or-all.pipe';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { GameCategoryCardsComponent } from './components/game-category-cards/gam
     GameCategoryHeaderComponent,
     GameCategoryWrapperComponent,
     GameCategoryCardsComponent,
+    SliceOrAllPipe,
   ],
   imports: [CommonModule, SharedRoutingModule],
   exports: [

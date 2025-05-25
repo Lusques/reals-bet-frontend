@@ -2,7 +2,7 @@
   <ul class="category-cards__list">
     <li
       class="category-cards__item"
-      *ngFor="let game of games; trackBy: getTrackByCardId"
+      *ngFor="let game of games | sliceOrAll; trackBy: getTrackByCardId"
     >
       <a>
         <figure class="category-cards__figure">
