@@ -87,8 +87,9 @@
       ]
     },
     {
-      "id": "category-roulletes",
-      "iconUrl": "assets/icons/roullete.svg",
+      "id": "category-roulette",
+      "iconUrl": "assets/icons/roulette.svg",
+      
       "title": "Roletas",
       "totalGames": 10,
       "games": [
@@ -101,15 +102,15 @@
           "tags": ["Ao Vivo", "Roleta", "Clássico", "Imersivo"]
         },
         {
-          "id": "game-roullete",
+          "id": "game-roulette",
           "imageUrl": "assets/games/roulette.png",
           "altText": "Roulette",
-          "title": "Roullete",
+          "title": "Roulette",
           "provider": "Evolution",
           "tags": ["Ao Vivo", "Roleta", "Clássico", "Desktop & Mobile"]
         },
         {
-          "id": "game-auto-mega-roullete",
+          "id": "game-auto-mega-roulette",
           "imageUrl": "assets/games/auto-mega-roulette.png",
           "altText": "Auto Mega roulette",
           "title": "Auto Mega roulette",
@@ -125,15 +126,15 @@
           "tags": ["Ao Vivo", "Roleta", "Clássico", "Imersivo"]
         },
         {
-          "id": "game-roullete-2",
+          "id": "game-roulette-2",
           "imageUrl": "assets/games/roulette.png",
           "altText": "Roulette",
-          "title": "Roullete",
+          "title": "Roulette",
           "provider": "Evolution",
           "tags": ["Ao Vivo", "Roleta", "Clássico", "Desktop & Mobile"]
         },
         {
-          "id": "game-auto-mega-roullete-2",
+          "id": "game-auto-mega-roulette-2",
           "imageUrl": "assets/games/auto-mega-roulette.png",
           "altText": "Auto Mega roulette",
           "title": "Auto Mega roulette",
@@ -149,15 +150,15 @@
           "tags": ["Ao Vivo", "Roleta", "Clássico", "Imersivo"]
         },
         {
-          "id": "game-roullete-5",
+          "id": "game-roulette-5",
           "imageUrl": "assets/games/roulette.png",
           "altText": "Roulette",
-          "title": "Roullete",
+          "title": "Roulette",
           "provider": "Evolution",
           "tags": ["Ao Vivo", "Roleta", "Clássico", "Desktop & Mobile"]
         },
         {
-          "id": "game-auto-mega-roullete-5",
+          "id": "game-auto-mega-roulette-5",
           "imageUrl": "assets/games/auto-mega-roulette.png",
           "altText": "Auto Mega roulette",
           "title": "Auto Mega roulette",
