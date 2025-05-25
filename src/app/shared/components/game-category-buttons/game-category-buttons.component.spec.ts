@@ -1,6 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { GameCategoryButtonsComponent } from './game-category-buttons.component';
+import { SharedModule } from '@app/shared/shared.module';
 
 describe('GameCategoryButtonsComponent', () => {
   let component: GameCategoryButtonsComponent;
@@ -8,9 +9,9 @@ describe('GameCategoryButtonsComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ GameCategoryButtonsComponent ]
-    })
-    .compileComponents();
+      declarations: [GameCategoryButtonsComponent],
+      imports: [SharedModule],
+    }).compileComponents();
 
     fixture = TestBed.createComponent(GameCategoryButtonsComponent);
     component = fixture.componentInstance;

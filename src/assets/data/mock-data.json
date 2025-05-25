@@ -73,6 +73,7 @@
     {
       "id": "category-roulletes",
       "iconUrl": "assets/icons/roullete.svg",
+      "title": "Roletas",
       "totalGames": 10,
       "games": [
         {
@@ -128,6 +129,7 @@
     {
       "id": "category-baccarat",
       "iconUrl": "assets/icons/cards.svg",
+      "title": "Baccarat",
       "totalGames": 58,
       "games": [
         {
@@ -183,6 +185,7 @@
     {
       "id": "category-blackjack",
       "iconUrl": "assets/icons/trophy.svg",
+      "title": "Blackjack",
       "totalGames": 27,
       "games": [
         {
@@ -238,6 +241,7 @@
     {
       "id": "category-dice",
       "iconUrl": "assets/icons/trophy.svg",
+      "title": "Dados",
       "totalGames": 4,
       "games": [
         {
@@ -246,7 +250,13 @@
           "altText": "Boom City",
           "title": "Boom City",
           "provider": "PragmaticPlay",
-          "tags": ["Ao Vivo", "Game Show", "Dados", "Multiplicador", "Estratégia"]
+          "tags": [
+            "Ao Vivo",
+            "Game Show",
+            "Dados",
+            "Multiplicador",
+            "Estratégia"
+          ]
         },
         {
           "id": "game-mega-sic-bac",
@@ -262,7 +272,13 @@
           "altText": "Mega Sic Bo",
           "title": "Mega Sic Bo",
           "provider": "PragmaticPlay",
-          "tags": ["Ao Vivo", "Dados", "Sic Bo", "Mega Multiplicador", "Popular"]
+          "tags": [
+            "Ao Vivo",
+            "Dados",
+            "Sic Bo",
+            "Mega Multiplicador",
+            "Popular"
+          ]
         },
         {
           "id": "game-sic-bo",
