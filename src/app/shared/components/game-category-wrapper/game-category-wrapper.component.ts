@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { GameCategory } from '@app/shared/models/game-category.model';
 import { Game } from '@app/shared/models/game.model';
 
@@ -7,6 +7,16 @@ import { Game } from '@app/shared/models/game.model';
   templateUrl: './game-category-wrapper.component.html',
   styleUrls: ['./game-category-wrapper.component.scss'],
 })
-export class GameCategoryWrapperComponent {
-  @Input() category!: GameCategory;
+export class GameCategoryWrapperComponent implements OnInit {
+  @Input() category: GameCategory = {
+    id: '',
+    iconUrl: '',
+    title: '',
+    totalGames: 0,
+    games: [],
+  };
+  games: Game[] = [];
+  ngOnInit(): void {
+    this.games = this.category.games;
+  }
 }

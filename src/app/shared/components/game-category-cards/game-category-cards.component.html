@@ -1,51 +1,12 @@
 <div class="category-cards">
   <ul class="category-cards__list">
-    <li class="category-cards__item">
+    <li
+      class="category-cards__item"
+      *ngFor="let game of games; trackBy: getTrackByCardId"
+    >
       <a>
         <figure class="category-cards__figure">
-          <img src="assets/games/football-studio.png" alt="altText" />
-        </figure>
-      </a>
-    </li>
-    <li class="category-cards__item">
-      <a>
-        <figure class="category-cards__figure">
-          <img src="assets/games/football-studio.png" alt="altText" />
-        </figure>
-      </a>
-    </li>
-    <li class="category-cards__item">
-      <a>
-        <figure class="category-cards__figure">
-          <img src="assets/games/football-studio.png" alt="altText" />
-        </figure>
-      </a>
-    </li>
-    <li class="category-cards__item">
-      <a>
-        <figure class="category-cards__figure">
-          <img src="assets/games/football-studio.png" alt="altText" />
-        </figure>
-      </a>
-    </li>
-    <li class="category-cards__item">
-      <a>
-        <figure class="category-cards__figure">
-          <img src="assets/games/football-studio.png" alt="altText" />
-        </figure>
-      </a>
-    </li>
-    <li class="category-cards__item">
-      <a>
-        <figure class="category-cards__figure">
-          <img src="assets/games/football-studio.png" alt="altText" />
-        </figure>
-      </a>
-    </li>
-    <li class="category-cards__item">
-      <a>
-        <figure class="category-cards__figure">
-          <img src="assets/games/football-studio.png" alt="altText" />
+          <img [src]="game.imageUrl" [alt]="game.altText" />
         </figure>
       </a>
     </li>

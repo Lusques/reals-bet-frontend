@@ -27,6 +27,6 @@ export class DashboardBannerComponent implements OnInit {
   }
 
   trackBySlideId(index: number, slide: Banner) {
-    return `${slide.id}-${index}` || index;
+    return slide.id ?`${slide.id}-${index}` : index;
   }
 }

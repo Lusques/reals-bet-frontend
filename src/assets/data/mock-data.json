@@ -86,15 +86,15 @@
         },
         {
           "id": "game-roullete",
-          "imageUrl": "assets/games/roullete.png",
-          "altText": "Roullete",
+          "imageUrl": "assets/games/roulette.png",
+          "altText": "Roulette",
           "title": "Roullete",
           "provider": "Evolution",
           "tags": ["Ao Vivo", "Roleta", "Clássico", "Desktop & Mobile"]
         },
         {
           "id": "game-auto-mega-roullete",
-          "imageUrl": "assets/games/auto-mega-roullete.png",
+          "imageUrl": "assets/games/auto-mega-roulette.png",
           "altText": "Auto Mega roulette",
           "title": "Auto Mega roulette",
           "provider": "PragmaticPlay",
@@ -110,15 +110,15 @@
         },
         {
           "id": "game-roullete-2",
-          "imageUrl": "assets/games/roullete.png",
-          "altText": "Roullete",
+          "imageUrl": "assets/games/roulette.png",
+          "altText": "Roulette",
           "title": "Roullete",
           "provider": "Evolution",
           "tags": ["Ao Vivo", "Roleta", "Clássico", "Desktop & Mobile"]
         },
         {
           "id": "game-auto-mega-roullete-2",
-          "imageUrl": "assets/games/auto-mega-roullete.png",
+          "imageUrl": "assets/games/auto-mega-roulette.png",
           "altText": "Auto Mega roulette",
           "title": "Auto Mega roulette",
           "provider": "PragmaticPlay",
