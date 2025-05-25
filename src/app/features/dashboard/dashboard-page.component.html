@@ -4,5 +4,9 @@
     <app-input-icon></app-input-icon>
   </div>
   <app-game-category-buttons></app-game-category-buttons>
-  <app-game-category-wrapper></app-game-category-wrapper>
+  <app-game-category-wrapper
+    *ngFor="let categoriy of allGameCategories"
+    [category]="categoriy"
+  >
+  </app-game-category-wrapper>
 </section>
