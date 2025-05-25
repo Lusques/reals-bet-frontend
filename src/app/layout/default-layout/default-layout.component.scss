@@ -1,0 +1,7 @@
+@use "src/styles/abstract/colors" as *;
+
+.default-layout {
+  background-color: $gray-7;
+  min-height: 100vh;
+  width: 100%;
+}

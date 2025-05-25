@@ -1,8 +1,12 @@
-<app-default-layout-header></app-default-layout-header>
-<app-dashboard-page></app-dashboard-page>
-<app-default-layout-footer-mobile
-  *ngIf="isMobileScreen$ | async"
-></app-default-layout-footer-mobile>
-<app-default-layout-footer-desktop
-  *ngIf="isDesktopScreen$ | async"
-></app-default-layout-footer-desktop>
+<div class="default-layout">
+  <app-default-layout-header></app-default-layout-header>
+  <main>
+    <app-dashboard-page></app-dashboard-page>
+  </main>
+  <app-default-layout-footer-mobile
+    *ngIf="isMobileScreen$ | async"
+  ></app-default-layout-footer-mobile>
+  <app-default-layout-footer-desktop
+    *ngIf="isDesktopScreen$ | async"
+  ></app-default-layout-footer-desktop>
+</div>
