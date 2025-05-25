@@ -3,14 +3,15 @@ import { CommonModule } from '@angular/common';
 
 import { FeaturesRoutingModule } from './features-routing.module';
 import { DashboardBannerComponent } from './components/dashboard-banner/dashboard-banner.component';
+import { DashboardModule } from './dashboard/dashboard.module';
 
 
 @NgModule({
   declarations: [
-    DashboardBannerComponent
   ],
   imports: [
     CommonModule,
+    DashboardModule,
     FeaturesRoutingModule
   ]
 })

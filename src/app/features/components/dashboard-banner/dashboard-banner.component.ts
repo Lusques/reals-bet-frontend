@@ -1,10 +1,34 @@
-import { Component } from '@angular/core';
+import { AppData } from '@app/shared/models/AppData.model';
+import { Banner } from '@app/shared/models/banner.model';
+import { ApiMockService } from './../../../core/services/api-mock.service';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-dashboard-banner',
   templateUrl: './dashboard-banner.component.html',
-  styleUrls: ['./dashboard-banner.component.scss']
+  styleUrls: ['./dashboard-banner.component.scss'],
 })
-export class DashboardBannerComponent {
+export class DashboardBannerComponent implements OnInit {
+  bannerSlides: Banner[] = [];
+  constructor(private apiMockService: ApiMockService) {}
+  ngOnInit(): void {
+    this.apiMockService.getAppData().subscribe({
+      next: (data: AppData) => {
+        if (data.banners.length > 1)
+          this.bannerSlides = [...data.banners, ...data.banners];
+        else this.bannerSlides = [...data.banners];
+      },
+      error: (error) => {
+        console.error('Erro ao carregar dados do banner:', error);
+      },
+    });
+  }
 
+  haveSlides(): boolean {
+    return this.bannerSlides.length > 0;
+  }
+
+  trackBySlideId(index: number, slide: Banner) {
+    return `${slide.id}-${index}` || index;
+  }
 }
