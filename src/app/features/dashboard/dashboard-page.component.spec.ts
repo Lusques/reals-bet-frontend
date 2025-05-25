@@ -4,6 +4,7 @@ import { DashboardPageComponent } from './dashboard-page.component';
 import { DashboardBannerComponent } from '../components/dashboard-banner/dashboard-banner.component';
 import { HttpClientTestingModule } from '@angular/common/http/testing';
 import { RouterTestingModule } from '@angular/router/testing';
+import { SharedModule } from '@app/shared/shared.module';
 
 describe('DashboardPageComponent', () => {
   let component: DashboardPageComponent;
@@ -12,7 +13,7 @@ describe('DashboardPageComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       declarations: [DashboardPageComponent, DashboardBannerComponent],
-      imports: [HttpClientTestingModule, RouterTestingModule],
+      imports: [HttpClientTestingModule, RouterTestingModule, SharedModule],
     }).compileComponents();
 
     fixture = TestBed.createComponent(DashboardPageComponent);

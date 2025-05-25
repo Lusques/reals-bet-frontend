@@ -1,0 +1,11 @@
+.game-category {
+  &__list {
+    display: flex;
+    gap: 8px;
+    list-style-type: none;
+    padding: 0;
+  }
+  &__span {
+    white-space: nowrap;
+  }
+}
