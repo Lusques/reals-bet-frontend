@@ -2,13 +2,14 @@
 @use "src/styles/abstract/mixins" as *;
 
 .input-icon {
-  color: $white;
   align-items: center;
   border-radius: 5px;
   border: solid 1px $white;
+  color: $white;
   display: flex;
   gap: 8px;
   margin: 16px 0;
+  overflow: hidden;
   padding: 12px;
   cursor: text;
   &__figure {
