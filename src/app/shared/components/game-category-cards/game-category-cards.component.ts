@@ -10,6 +10,6 @@ export class GameCategoryCardsComponent {
   @Input() games: Game[] = [];
 
   getTrackByCardId(index: number, game: Game) {
-    return game.id ? game.id : index;
+    return game.id ? `${game.id}-${index}` : `${index}`;
   }
 }
