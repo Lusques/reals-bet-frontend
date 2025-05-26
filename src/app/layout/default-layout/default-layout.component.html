@@ -2,6 +2,9 @@
   <app-default-layout-header></app-default-layout-header>
   <main>
     <app-dashboard-page></app-dashboard-page>
+    <app-floating-chat-button
+      *ngIf="isDesktopScreen$ | async"
+    ></app-floating-chat-button>
   </main>
   <app-default-layout-footer-mobile
     *ngIf="isMobileScreen$ | async"

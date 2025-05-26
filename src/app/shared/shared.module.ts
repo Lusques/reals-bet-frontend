@@ -11,6 +11,7 @@ import { GameCategoryWrapperComponent } from './components/game-category-wrapper
 import { GameCategoryCardsComponent } from './components/game-category-cards/game-category-cards.component';
 import { SliceOrAllPipe } from './pipes/slice-or-all.pipe';
 import { FormsModule } from '@angular/forms';
+import { FloatingChatButtonComponent } from './components/floating-chat-button/floating-chat-button.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { FormsModule } from '@angular/forms';
     GameCategoryWrapperComponent,
     GameCategoryCardsComponent,
     SliceOrAllPipe,
+    FloatingChatButtonComponent,
   ],
   imports: [CommonModule, SharedRoutingModule, FormsModule],
   exports: [
@@ -30,6 +32,7 @@ import { FormsModule } from '@angular/forms';
     InputIconComponent,
     GameCategoryButtonsComponent,
     GameCategoryWrapperComponent,
+    FloatingChatButtonComponent,
   ],
 })
 export class SharedModule {}

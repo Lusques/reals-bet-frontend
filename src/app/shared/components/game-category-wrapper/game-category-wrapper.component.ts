@@ -44,7 +44,6 @@ export class GameCategoryWrapperComponent implements OnInit, OnChanges {
   }
   getFilteredGamesCount() {
     const count = this.queryGames().length;
-    debugger;
     return count;
   }
   queryGames(): Game[] {
