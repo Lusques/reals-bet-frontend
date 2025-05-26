@@ -4,9 +4,9 @@
       class="dashboard-banner__item"
       *ngFor="let slide of bannerSlides; trackBy: trackBySlideId"
     >
-      <a class="dashboard-banner__anchor" [routerLink]="slide.link">
+      <a class="dashboard-banner__anchor" [routerLink]="slide.link" draggable="false">
         <figure class="dashboard-banner__figure">
-          <img [src]="slide.imageUrl" [alt]="slide.altText" />
+          <img [src]="slide.imageUrl" [alt]="slide.altText" draggable="false" />
         </figure>
       </a>
     </li>
