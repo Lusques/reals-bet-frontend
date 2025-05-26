@@ -2,11 +2,13 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { DefaultLayoutComponent } from './default-layout.component';
 import { ScreenSizeService } from '../../shared/services/screen-size.service';
 import { BehaviorSubject, Observable } from 'rxjs';
-import { SharedModule } from '../../shared/shared.module';
-import { CommonModule } from '@angular/common';
 import { RouterTestingModule } from '@angular/router/testing';
-import { LayoutModule } from '../layout.module';
 import { By } from '@angular/platform-browser';
+import { HttpClientTestingModule } from '@angular/common/http/testing';
+import { NO_ERRORS_SCHEMA } from '@angular/core';
+import { DefaultLayoutHeaderComponent } from '../components/default-layout-header/default-layout-header.component';
+import { DefaultLayoutFooterMobileComponent } from '../components/default-layout-footer-mobile/default-layout-footer-mobile.component';
+import { DefaultLayoutFooterDesktopComponent } from '../components/default-layout-footer-desktop/default-layout-footer-desktop.component';
 
 class MockScreenSizeService {
   private isMobileSubject = new BehaviorSubject<boolean>(false);
@@ -36,11 +38,17 @@ describe('DefaultLayoutComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [DefaultLayoutComponent],
-      imports: [CommonModule, LayoutModule, SharedModule, RouterTestingModule],
+      declarations: [
+        DefaultLayoutComponent,
+        DefaultLayoutHeaderComponent,
+        DefaultLayoutFooterMobileComponent,
+        DefaultLayoutFooterDesktopComponent,
+      ],
+      imports: [HttpClientTestingModule, RouterTestingModule],
       providers: [
         { provide: ScreenSizeService, useClass: MockScreenSizeService },
       ],
+      schemas: [NO_ERRORS_SCHEMA],
     }).compileComponents();
 
     fixture = TestBed.createComponent(DefaultLayoutComponent);

@@ -1,0 +1,41 @@
+@use "src/styles/abstract/colors" as *;
+@use "src/styles/abstract/mixins" as *;
+
+.input-icon {
+  align-items: center;
+  border-radius: 5px;
+  border: solid 1px $white;
+  color: $white;
+  display: flex;
+  gap: 8px;
+  margin: 16px 0;
+  overflow: hidden;
+  padding: 12px;
+  cursor: text;
+  &__figure {
+    width: 16px;
+    height: 16px;
+  }
+  &__field {
+    background-color: transparent;
+    border: none;
+    color: $white;
+    flex-grow: 1;
+    opacity: 0.4;
+    outline: none;
+    transition: 0.3s;
+    &::placeholder {
+      color: $white;
+    }
+    &:not(:placeholder-shown),
+    &:focus {
+      outline: none;
+      opacity: 1;
+    }
+  }
+}
+@include responsive("lg") {
+  .input-icon {
+    margin: 20px 0;
+  }
+}

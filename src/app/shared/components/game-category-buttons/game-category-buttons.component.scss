@@ -1,0 +1,23 @@
+.game-category {
+  margin: auto;
+  max-width: 1288px;
+  &__list {
+    -ms-overflow-style: none;
+    display: flex;
+    gap: 8px;
+    list-style-type: none;
+    max-width: 100vw;
+    overflow-x: scroll;
+    padding: 0 16px;
+    scrollbar-width: none;
+    width: fit-content;
+    &::-webkit-scrollbar {
+      display: none;
+      width: 0;
+      height: 0;
+    }
+  }
+  &__span {
+    white-space: nowrap;
+  }
+}

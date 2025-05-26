@@ -1,0 +1,33 @@
+@use "src/styles/abstract/colors" as *;
+@use "src/styles/abstract/mixins" as *;
+
+.category-header {
+  background-color: rgba($gray-5, $alpha: 0.4);
+  border-radius: 10px;
+  color: $white;
+  display: flex;
+  gap: 12px;
+  justify-content: space-between;
+  padding: 10px;
+  &__icon {
+    max-width: 20px;
+  }
+  &__col {
+    align-items: center;
+    display: flex;
+    gap: 8px;
+  }
+  &__tag {
+    background-color: #414141;
+    border-radius: 4px;
+    font-weight: bold;
+    margin: 0;
+    padding: 3px 8px;
+  }
+  &__button {
+    background-color: transparent;
+    color: $white;
+    font-family: inherit;
+    cursor: pointer;
+  }
+}

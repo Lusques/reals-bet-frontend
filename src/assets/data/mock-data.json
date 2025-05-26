@@ -67,12 +67,30 @@
           "title": "Immersive Roulette",
           "provider": "Evolution",
           "tags": ["Ao Vivo", "Roleta", "Clássico", "Imersivo"]
+        },
+        {
+          "id": "game-football-studio-5",
+          "imageUrl": "assets/games/football-studio.png",
+          "altText": "FootBall Studio",
+          "title": "FootBall Studio",
+          "provider": "Evolution",
+          "tags": ["Ao Vivo", "Esportes"]
+        },
+        {
+          "id": "game-bac-bo-5",
+          "imageUrl": "assets/games/bac-bo.png",
+          "altText": "Bac Bo",
+          "title": "Bac Bo",
+          "provider": "Evolution",
+          "tags": ["Ao Vivo", "Dados", "Estratégia"]
         }
       ]
     },
     {
-      "id": "category-roulletes",
-      "iconUrl": "assets/icons/roullete.svg",
+      "id": "category-roulette",
+      "iconUrl": "assets/icons/roulette.svg",
+      
+      "title": "Roletas",
       "totalGames": 10,
       "games": [
         {
@@ -84,16 +102,16 @@
           "tags": ["Ao Vivo", "Roleta", "Clássico", "Imersivo"]
         },
         {
-          "id": "game-roullete",
-          "imageUrl": "assets/games/roullete.png",
-          "altText": "Roullete",
-          "title": "Roullete",
+          "id": "game-roulette",
+          "imageUrl": "assets/games/roulette.png",
+          "altText": "Roulette",
+          "title": "Roulette",
           "provider": "Evolution",
           "tags": ["Ao Vivo", "Roleta", "Clássico", "Desktop & Mobile"]
         },
         {
-          "id": "game-auto-mega-roullete",
-          "imageUrl": "assets/games/auto-mega-roullete.png",
+          "id": "game-auto-mega-roulette",
+          "imageUrl": "assets/games/auto-mega-roulette.png",
           "altText": "Auto Mega roulette",
           "title": "Auto Mega roulette",
           "provider": "PragmaticPlay",
@@ -108,26 +126,59 @@
           "tags": ["Ao Vivo", "Roleta", "Clássico", "Imersivo"]
         },
         {
-          "id": "game-roullete-2",
-          "imageUrl": "assets/games/roullete.png",
-          "altText": "Roullete",
-          "title": "Roullete",
+          "id": "game-roulette-2",
+          "imageUrl": "assets/games/roulette.png",
+          "altText": "Roulette",
+          "title": "Roulette",
           "provider": "Evolution",
           "tags": ["Ao Vivo", "Roleta", "Clássico", "Desktop & Mobile"]
         },
         {
-          "id": "game-auto-mega-roullete-2",
-          "imageUrl": "assets/games/auto-mega-roullete.png",
+          "id": "game-auto-mega-roulette-2",
+          "imageUrl": "assets/games/auto-mega-roulette.png",
           "altText": "Auto Mega roulette",
           "title": "Auto Mega roulette",
           "provider": "PragmaticPlay",
           "tags": ["Ao Vivo", "Roleta", "Auto", "Multiplicador", "Dinâmico"]
+        },
+        {
+          "id": "game-immersive-roulette-5",
+          "imageUrl": "assets/games/immersive-roulette.png",
+          "altText": "Immersive Roulette",
+          "title": "Immersive Roulette",
+          "provider": "Evolution",
+          "tags": ["Ao Vivo", "Roleta", "Clássico", "Imersivo"]
+        },
+        {
+          "id": "game-roulette-5",
+          "imageUrl": "assets/games/roulette.png",
+          "altText": "Roulette",
+          "title": "Roulette",
+          "provider": "Evolution",
+          "tags": ["Ao Vivo", "Roleta", "Clássico", "Desktop & Mobile"]
+        },
+        {
+          "id": "game-auto-mega-roulette-5",
+          "imageUrl": "assets/games/auto-mega-roulette.png",
+          "altText": "Auto Mega roulette",
+          "title": "Auto Mega roulette",
+          "provider": "PragmaticPlay",
+          "tags": ["Ao Vivo", "Roleta", "Auto", "Multiplicador", "Dinâmico"]
+        },
+        {
+          "id": "game-immersive-roulette-5",
+          "imageUrl": "assets/games/immersive-roulette.png",
+          "altText": "Immersive Roulette",
+          "title": "Immersive Roulette",
+          "provider": "Evolution",
+          "tags": ["Ao Vivo", "Roleta", "Clássico", "Imersivo"]
         }
       ]
     },
     {
       "id": "category-baccarat",
       "iconUrl": "assets/icons/cards.svg",
+      "title": "Baccarat",
       "totalGames": 58,
       "games": [
         {
@@ -177,12 +228,429 @@
           "title": "Baccarat Squeeze",
           "provider": "Evolution",
           "tags": ["Ao Vivo", "Cartas", "Baccarat", "Squeeze"]
+        },
+        {
+          "id": "game-baccarat-8",
+          "imageUrl": "assets/games/baccarat-8.png",
+          "altText": "Baccarat 8",
+          "title": "Baccarat 8",
+          "provider": "PragmaticPlay",
+          "tags": ["Ao Vivo", "Cartas", "Baccarat", "Clássico"]
+        },
+        {
+          "id": "game-baccarat-8",
+          "imageUrl": "assets/games/baccarat-8.png",
+          "altText": "Baccarat 8",
+          "title": "Baccarat 8",
+          "provider": "PragmaticPlay",
+          "tags": ["Ao Vivo", "Cartas", "Baccarat", "Clássico"]
+        },
+        {
+          "id": "game-baccarat-a",
+          "imageUrl": "assets/games/baccarat-a.png",
+          "altText": "Baccarat A",
+          "title": "Baccarat A",
+          "provider": "Evolution",
+          "tags": ["Ao Vivo", "Cartas", "Baccarat", "VIP"]
+        },
+        {
+          "id": "game-baccarat-squeeze",
+          "imageUrl": "assets/games/baccarat-squeeze.png",
+          "altText": "Baccarat Squeeze",
+          "title": "Baccarat Squeeze",
+          "provider": "Evolution",
+          "tags": ["Ao Vivo", "Cartas", "Baccarat", "Squeeze"]
+        },
+        {
+          "id": "game-baccarat-8-2",
+          "imageUrl": "assets/games/baccarat-8.png",
+          "altText": "Baccarat 8",
+          "title": "Baccarat 8",
+          "provider": "PragmaticPlay",
+          "tags": ["Ao Vivo", "Cartas", "Baccarat", "Clássico"]
+        },
+        {
+          "id": "game-baccarat-a-2",
+          "imageUrl": "assets/games/baccarat-a.png",
+          "altText": "Baccarat A",
+          "title": "Baccarat A",
+          "provider": "Evolution",
+          "tags": ["Ao Vivo", "Cartas", "Baccarat", "VIP"]
+        },
+        {
+          "id": "game-baccarat-squeeze-2",
+          "imageUrl": "assets/games/baccarat-squeeze.png",
+          "altText": "Baccarat Squeeze",
+          "title": "Baccarat Squeeze",
+          "provider": "Evolution",
+          "tags": ["Ao Vivo", "Cartas", "Baccarat", "Squeeze"]
+        },
+        {
+          "id": "game-baccarat-8",
+          "imageUrl": "assets/games/baccarat-8.png",
+          "altText": "Baccarat 8",
+          "title": "Baccarat 8",
+          "provider": "PragmaticPlay",
+          "tags": ["Ao Vivo", "Cartas", "Baccarat", "Clássico"]
+        },
+        {
+          "id": "game-baccarat-8",
+          "imageUrl": "assets/games/baccarat-8.png",
+          "altText": "Baccarat 8",
+          "title": "Baccarat 8",
+          "provider": "PragmaticPlay",
+          "tags": ["Ao Vivo", "Cartas", "Baccarat", "Clássico"]
+        },
+        {
+          "id": "game-baccarat-a",
+          "imageUrl": "assets/games/baccarat-a.png",
+          "altText": "Baccarat A",
+          "title": "Baccarat A",
+          "provider": "Evolution",
+          "tags": ["Ao Vivo", "Cartas", "Baccarat", "VIP"]
+        },
+        {
+          "id": "game-baccarat-squeeze",
+          "imageUrl": "assets/games/baccarat-squeeze.png",
+          "altText": "Baccarat Squeeze",
+          "title": "Baccarat Squeeze",
+          "provider": "Evolution",
+          "tags": ["Ao Vivo", "Cartas", "Baccarat", "Squeeze"]
+        },
+        {
+          "id": "game-baccarat-8-2",
+          "imageUrl": "assets/games/baccarat-8.png",
+          "altText": "Baccarat 8",
+          "title": "Baccarat 8",
+          "provider": "PragmaticPlay",
+          "tags": ["Ao Vivo", "Cartas", "Baccarat", "Clássico"]
+        },
+        {
+          "id": "game-baccarat-a-2",
+          "imageUrl": "assets/games/baccarat-a.png",
+          "altText": "Baccarat A",
+          "title": "Baccarat A",
+          "provider": "Evolution",
+          "tags": ["Ao Vivo", "Cartas", "Baccarat", "VIP"]
+        },
+        {
+          "id": "game-baccarat-squeeze-2",
+          "imageUrl": "assets/games/baccarat-squeeze.png",
+          "altText": "Baccarat Squeeze",
+          "title": "Baccarat Squeeze",
+          "provider": "Evolution",
+          "tags": ["Ao Vivo", "Cartas", "Baccarat", "Squeeze"]
+        },
+        {
+          "id": "game-baccarat-8",
+          "imageUrl": "assets/games/baccarat-8.png",
+          "altText": "Baccarat 8",
+          "title": "Baccarat 8",
+          "provider": "PragmaticPlay",
+          "tags": ["Ao Vivo", "Cartas", "Baccarat", "Clássico"]
+        },
+        {
+          "id": "game-baccarat-8",
+          "imageUrl": "assets/games/baccarat-8.png",
+          "altText": "Baccarat 8",
+          "title": "Baccarat 8",
+          "provider": "PragmaticPlay",
+          "tags": ["Ao Vivo", "Cartas", "Baccarat", "Clássico"]
+        },
+        {
+          "id": "game-baccarat-a",
+          "imageUrl": "assets/games/baccarat-a.png",
+          "altText": "Baccarat A",
+          "title": "Baccarat A",
+          "provider": "Evolution",
+          "tags": ["Ao Vivo", "Cartas", "Baccarat", "VIP"]
+        },
+        {
+          "id": "game-baccarat-squeeze",
+          "imageUrl": "assets/games/baccarat-squeeze.png",
+          "altText": "Baccarat Squeeze",
+          "title": "Baccarat Squeeze",
+          "provider": "Evolution",
+          "tags": ["Ao Vivo", "Cartas", "Baccarat", "Squeeze"]
+        },
+        {
+          "id": "game-baccarat-8-2",
+          "imageUrl": "assets/games/baccarat-8.png",
+          "altText": "Baccarat 8",
+          "title": "Baccarat 8",
+          "provider": "PragmaticPlay",
+          "tags": ["Ao Vivo", "Cartas", "Baccarat", "Clássico"]
+        },
+        {
+          "id": "game-baccarat-a-2",
+          "imageUrl": "assets/games/baccarat-a.png",
+          "altText": "Baccarat A",
+          "title": "Baccarat A",
+          "provider": "Evolution",
+          "tags": ["Ao Vivo", "Cartas", "Baccarat", "VIP"]
+        },
+        {
+          "id": "game-baccarat-squeeze-2",
+          "imageUrl": "assets/games/baccarat-squeeze.png",
+          "altText": "Baccarat Squeeze",
+          "title": "Baccarat Squeeze",
+          "provider": "Evolution",
+          "tags": ["Ao Vivo", "Cartas", "Baccarat", "Squeeze"]
+        },
+        {
+          "id": "game-baccarat-8",
+          "imageUrl": "assets/games/baccarat-8.png",
+          "altText": "Baccarat 8",
+          "title": "Baccarat 8",
+          "provider": "PragmaticPlay",
+          "tags": ["Ao Vivo", "Cartas", "Baccarat", "Clássico"]
+        },
+        {
+          "id": "game-baccarat-8",
+          "imageUrl": "assets/games/baccarat-8.png",
+          "altText": "Baccarat 8",
+          "title": "Baccarat 8",
+          "provider": "PragmaticPlay",
+          "tags": ["Ao Vivo", "Cartas", "Baccarat", "Clássico"]
+        },
+        {
+          "id": "game-baccarat-a",
+          "imageUrl": "assets/games/baccarat-a.png",
+          "altText": "Baccarat A",
+          "title": "Baccarat A",
+          "provider": "Evolution",
+          "tags": ["Ao Vivo", "Cartas", "Baccarat", "VIP"]
+        },
+        {
+          "id": "game-baccarat-squeeze",
+          "imageUrl": "assets/games/baccarat-squeeze.png",
+          "altText": "Baccarat Squeeze",
+          "title": "Baccarat Squeeze",
+          "provider": "Evolution",
+          "tags": ["Ao Vivo", "Cartas", "Baccarat", "Squeeze"]
+        },
+        {
+          "id": "game-baccarat-8-2",
+          "imageUrl": "assets/games/baccarat-8.png",
+          "altText": "Baccarat 8",
+          "title": "Baccarat 8",
+          "provider": "PragmaticPlay",
+          "tags": ["Ao Vivo", "Cartas", "Baccarat", "Clássico"]
+        },
+        {
+          "id": "game-baccarat-a-2",
+          "imageUrl": "assets/games/baccarat-a.png",
+          "altText": "Baccarat A",
+          "title": "Baccarat A",
+          "provider": "Evolution",
+          "tags": ["Ao Vivo", "Cartas", "Baccarat", "VIP"]
+        },
+        {
+          "id": "game-baccarat-squeeze-2",
+          "imageUrl": "assets/games/baccarat-squeeze.png",
+          "altText": "Baccarat Squeeze",
+          "title": "Baccarat Squeeze",
+          "provider": "Evolution",
+          "tags": ["Ao Vivo", "Cartas", "Baccarat", "Squeeze"]
+        },
+        {
+          "id": "game-baccarat-8",
+          "imageUrl": "assets/games/baccarat-8.png",
+          "altText": "Baccarat 8",
+          "title": "Baccarat 8",
+          "provider": "PragmaticPlay",
+          "tags": ["Ao Vivo", "Cartas", "Baccarat", "Clássico"]
+        },
+        {
+          "id": "game-baccarat-8",
+          "imageUrl": "assets/games/baccarat-8.png",
+          "altText": "Baccarat 8",
+          "title": "Baccarat 8",
+          "provider": "PragmaticPlay",
+          "tags": ["Ao Vivo", "Cartas", "Baccarat", "Clássico"]
+        },
+        {
+          "id": "game-baccarat-a",
+          "imageUrl": "assets/games/baccarat-a.png",
+          "altText": "Baccarat A",
+          "title": "Baccarat A",
+          "provider": "Evolution",
+          "tags": ["Ao Vivo", "Cartas", "Baccarat", "VIP"]
+        },
+        {
+          "id": "game-baccarat-squeeze",
+          "imageUrl": "assets/games/baccarat-squeeze.png",
+          "altText": "Baccarat Squeeze",
+          "title": "Baccarat Squeeze",
+          "provider": "Evolution",
+          "tags": ["Ao Vivo", "Cartas", "Baccarat", "Squeeze"]
+        },
+        {
+          "id": "game-baccarat-8-2",
+          "imageUrl": "assets/games/baccarat-8.png",
+          "altText": "Baccarat 8",
+          "title": "Baccarat 8",
+          "provider": "PragmaticPlay",
+          "tags": ["Ao Vivo", "Cartas", "Baccarat", "Clássico"]
+        },
+        {
+          "id": "game-baccarat-a-2",
+          "imageUrl": "assets/games/baccarat-a.png",
+          "altText": "Baccarat A",
+          "title": "Baccarat A",
+          "provider": "Evolution",
+          "tags": ["Ao Vivo", "Cartas", "Baccarat", "VIP"]
+        },
+        {
+          "id": "game-baccarat-squeeze-2",
+          "imageUrl": "assets/games/baccarat-squeeze.png",
+          "altText": "Baccarat Squeeze",
+          "title": "Baccarat Squeeze",
+          "provider": "Evolution",
+          "tags": ["Ao Vivo", "Cartas", "Baccarat", "Squeeze"]
+        },
+        {
+          "id": "game-baccarat-8",
+          "imageUrl": "assets/games/baccarat-8.png",
+          "altText": "Baccarat 8",
+          "title": "Baccarat 8",
+          "provider": "PragmaticPlay",
+          "tags": ["Ao Vivo", "Cartas", "Baccarat", "Clássico"]
+        },
+        {
+          "id": "game-baccarat-8",
+          "imageUrl": "assets/games/baccarat-8.png",
+          "altText": "Baccarat 8",
+          "title": "Baccarat 8",
+          "provider": "PragmaticPlay",
+          "tags": ["Ao Vivo", "Cartas", "Baccarat", "Clássico"]
+        },
+        {
+          "id": "game-baccarat-a",
+          "imageUrl": "assets/games/baccarat-a.png",
+          "altText": "Baccarat A",
+          "title": "Baccarat A",
+          "provider": "Evolution",
+          "tags": ["Ao Vivo", "Cartas", "Baccarat", "VIP"]
+        },
+        {
+          "id": "game-baccarat-squeeze",
+          "imageUrl": "assets/games/baccarat-squeeze.png",
+          "altText": "Baccarat Squeeze",
+          "title": "Baccarat Squeeze",
+          "provider": "Evolution",
+          "tags": ["Ao Vivo", "Cartas", "Baccarat", "Squeeze"]
+        },
+        {
+          "id": "game-baccarat-8-2",
+          "imageUrl": "assets/games/baccarat-8.png",
+          "altText": "Baccarat 8",
+          "title": "Baccarat 8",
+          "provider": "PragmaticPlay",
+          "tags": ["Ao Vivo", "Cartas", "Baccarat", "Clássico"]
+        },
+        {
+          "id": "game-baccarat-a-2",
+          "imageUrl": "assets/games/baccarat-a.png",
+          "altText": "Baccarat A",
+          "title": "Baccarat A",
+          "provider": "Evolution",
+          "tags": ["Ao Vivo", "Cartas", "Baccarat", "VIP"]
+        },
+        {
+          "id": "game-baccarat-squeeze-2",
+          "imageUrl": "assets/games/baccarat-squeeze.png",
+          "altText": "Baccarat Squeeze",
+          "title": "Baccarat Squeeze",
+          "provider": "Evolution",
+          "tags": ["Ao Vivo", "Cartas", "Baccarat", "Squeeze"]
+        },
+        {
+          "id": "game-baccarat-8",
+          "imageUrl": "assets/games/baccarat-8.png",
+          "altText": "Baccarat 8",
+          "title": "Baccarat 8",
+          "provider": "PragmaticPlay",
+          "tags": ["Ao Vivo", "Cartas", "Baccarat", "Clássico"]
+        },
+        {
+          "id": "game-baccarat-8",
+          "imageUrl": "assets/games/baccarat-8.png",
+          "altText": "Baccarat 8",
+          "title": "Baccarat 8",
+          "provider": "PragmaticPlay",
+          "tags": ["Ao Vivo", "Cartas", "Baccarat", "Clássico"]
+        },
+        {
+          "id": "game-baccarat-a",
+          "imageUrl": "assets/games/baccarat-a.png",
+          "altText": "Baccarat A",
+          "title": "Baccarat A",
+          "provider": "Evolution",
+          "tags": ["Ao Vivo", "Cartas", "Baccarat", "VIP"]
+        },
+        {
+          "id": "game-baccarat-squeeze",
+          "imageUrl": "assets/games/baccarat-squeeze.png",
+          "altText": "Baccarat Squeeze",
+          "title": "Baccarat Squeeze",
+          "provider": "Evolution",
+          "tags": ["Ao Vivo", "Cartas", "Baccarat", "Squeeze"]
+        },
+        {
+          "id": "game-baccarat-8-2",
+          "imageUrl": "assets/games/baccarat-8.png",
+          "altText": "Baccarat 8",
+          "title": "Baccarat 8",
+          "provider": "PragmaticPlay",
+          "tags": ["Ao Vivo", "Cartas", "Baccarat", "Clássico"]
+        },
+        {
+          "id": "game-baccarat-a-2",
+          "imageUrl": "assets/games/baccarat-a.png",
+          "altText": "Baccarat A",
+          "title": "Baccarat A",
+          "provider": "Evolution",
+          "tags": ["Ao Vivo", "Cartas", "Baccarat", "VIP"]
+        },
+        {
+          "id": "game-baccarat-squeeze-2",
+          "imageUrl": "assets/games/baccarat-squeeze.png",
+          "altText": "Baccarat Squeeze",
+          "title": "Baccarat Squeeze",
+          "provider": "Evolution",
+          "tags": ["Ao Vivo", "Cartas", "Baccarat", "Squeeze"]
+        },
+        {
+          "id": "game-baccarat-8",
+          "imageUrl": "assets/games/baccarat-8.png",
+          "altText": "Baccarat 8",
+          "title": "Baccarat 8",
+          "provider": "PragmaticPlay",
+          "tags": ["Ao Vivo", "Cartas", "Baccarat", "Clássico"]
+        },
+        {
+          "id": "game-baccarat-8",
+          "imageUrl": "assets/games/baccarat-8.png",
+          "altText": "Baccarat 8",
+          "title": "Baccarat 8",
+          "provider": "PragmaticPlay",
+          "tags": ["Ao Vivo", "Cartas", "Baccarat", "Clássico"]
+        },
+        {
+          "id": "game-baccarat-a",
+          "imageUrl": "assets/games/baccarat-a.png",
+          "altText": "Baccarat A",
+          "title": "Baccarat A",
+          "provider": "Evolution",
+          "tags": ["Ao Vivo", "Cartas", "Baccarat", "VIP"]
         }
       ]
     },
     {
       "id": "category-blackjack",
       "iconUrl": "assets/icons/trophy.svg",
+      "title": "Blackjack",
       "totalGames": 27,
       "games": [
         {
@@ -232,12 +700,181 @@
           "title": "One BlackJack",
           "provider": "PragmaticPlay",
           "tags": ["Ao Vivo", "Cartas", "Blackjack", "One"]
+        },
+        {
+          "id": "game-azure-blackjack-1",
+          "imageUrl": "assets/games/azure-blackjack-1.png",
+          "altText": "Azure BlackJack 1",
+          "title": "Azure BlackJack 1",
+          "provider": "PragmaticPlay",
+          "tags": ["Ao Vivo", "Cartas", "Blackjack", "Azure", "Mesa 1"]
+        },
+        {
+          "id": "game-azure-blackjack-2",
+          "imageUrl": "assets/games/azure-blackjack-2.png",
+          "altText": "Azure BlackJack 2",
+          "title": "Azure BlackJack 2",
+          "provider": "PragmaticPlay",
+          "tags": ["Ao Vivo", "Cartas", "Blackjack", "Azure", "Mesa 2"]
+        },
+        {
+          "id": "game-one-blackJack",
+          "imageUrl": "assets/games/one-blackjack.png",
+          "altText": "One BlackJack",
+          "title": "One BlackJack",
+          "provider": "PragmaticPlay",
+          "tags": ["Ao Vivo", "Cartas", "Blackjack", "One"]
+        },
+        {
+          "id": "game-azure-blackjack-1",
+          "imageUrl": "assets/games/azure-blackjack-1.png",
+          "altText": "Azure BlackJack 1",
+          "title": "Azure BlackJack 1",
+          "provider": "PragmaticPlay",
+          "tags": ["Ao Vivo", "Cartas", "Blackjack", "Azure", "Mesa 1"]
+        },
+        {
+          "id": "game-azure-blackjack-2",
+          "imageUrl": "assets/games/azure-blackjack-2.png",
+          "altText": "Azure BlackJack 2",
+          "title": "Azure BlackJack 2",
+          "provider": "PragmaticPlay",
+          "tags": ["Ao Vivo", "Cartas", "Blackjack", "Azure", "Mesa 2"]
+        },
+        {
+          "id": "game-one-blackJack",
+          "imageUrl": "assets/games/one-blackjack.png",
+          "altText": "One BlackJack",
+          "title": "One BlackJack",
+          "provider": "PragmaticPlay",
+          "tags": ["Ao Vivo", "Cartas", "Blackjack", "One"]
+        },
+        {
+          "id": "game-azure-blackjac-1-2",
+          "imageUrl": "assets/games/azure-blackjack-1.png",
+          "altText": "Azure BlackJack 1",
+          "title": "Azure BlackJack 1",
+          "provider": "PragmaticPlay",
+          "tags": ["Ao Vivo", "Cartas", "Blackjack", "Azure", "Mesa 1"]
+        },
+        {
+          "id": "game-azure-blackjack-2-2",
+          "imageUrl": "assets/games/azure-blackjack-2.png",
+          "altText": "Azure BlackJack 2",
+          "title": "Azure BlackJack 2",
+          "provider": "PragmaticPlay",
+          "tags": ["Ao Vivo", "Cartas", "Blackjack", "Azure", "Mesa 2"]
+        },
+        {
+          "id": "game-one-blackJack-2",
+          "imageUrl": "assets/games/one-blackjack.png",
+          "altText": "One BlackJack",
+          "title": "One BlackJack",
+          "provider": "PragmaticPlay",
+          "tags": ["Ao Vivo", "Cartas", "Blackjack", "One"]
+        },
+        {
+          "id": "game-azure-blackjack-1",
+          "imageUrl": "assets/games/azure-blackjack-1.png",
+          "altText": "Azure BlackJack 1",
+          "title": "Azure BlackJack 1",
+          "provider": "PragmaticPlay",
+          "tags": ["Ao Vivo", "Cartas", "Blackjack", "Azure", "Mesa 1"]
+        },
+        {
+          "id": "game-azure-blackjack-2",
+          "imageUrl": "assets/games/azure-blackjack-2.png",
+          "altText": "Azure BlackJack 2",
+          "title": "Azure BlackJack 2",
+          "provider": "PragmaticPlay",
+          "tags": ["Ao Vivo", "Cartas", "Blackjack", "Azure", "Mesa 2"]
+        },
+        {
+          "id": "game-one-blackJack",
+          "imageUrl": "assets/games/one-blackjack.png",
+          "altText": "One BlackJack",
+          "title": "One BlackJack",
+          "provider": "PragmaticPlay",
+          "tags": ["Ao Vivo", "Cartas", "Blackjack", "One"]
+        },
+        {
+          "id": "game-azure-blackjack-1",
+          "imageUrl": "assets/games/azure-blackjack-1.png",
+          "altText": "Azure BlackJack 1",
+          "title": "Azure BlackJack 1",
+          "provider": "PragmaticPlay",
+          "tags": ["Ao Vivo", "Cartas", "Blackjack", "Azure", "Mesa 1"]
+        },
+        {
+          "id": "game-azure-blackjack-2",
+          "imageUrl": "assets/games/azure-blackjack-2.png",
+          "altText": "Azure BlackJack 2",
+          "title": "Azure BlackJack 2",
+          "provider": "PragmaticPlay",
+          "tags": ["Ao Vivo", "Cartas", "Blackjack", "Azure", "Mesa 2"]
+        },
+        {
+          "id": "game-one-blackJack",
+          "imageUrl": "assets/games/one-blackjack.png",
+          "altText": "One BlackJack",
+          "title": "One BlackJack",
+          "provider": "PragmaticPlay",
+          "tags": ["Ao Vivo", "Cartas", "Blackjack", "One"]
+        },
+        {
+          "id": "game-azure-blackjac-1-2",
+          "imageUrl": "assets/games/azure-blackjack-1.png",
+          "altText": "Azure BlackJack 1",
+          "title": "Azure BlackJack 1",
+          "provider": "PragmaticPlay",
+          "tags": ["Ao Vivo", "Cartas", "Blackjack", "Azure", "Mesa 1"]
+        },
+        {
+          "id": "game-azure-blackjack-2-2",
+          "imageUrl": "assets/games/azure-blackjack-2.png",
+          "altText": "Azure BlackJack 2",
+          "title": "Azure BlackJack 2",
+          "provider": "PragmaticPlay",
+          "tags": ["Ao Vivo", "Cartas", "Blackjack", "Azure", "Mesa 2"]
+        },
+        {
+          "id": "game-one-blackJack-2",
+          "imageUrl": "assets/games/one-blackjack.png",
+          "altText": "One BlackJack",
+          "title": "One BlackJack",
+          "provider": "PragmaticPlay",
+          "tags": ["Ao Vivo", "Cartas", "Blackjack", "One"]
+        },
+        {
+          "id": "game-azure-blackjack-1",
+          "imageUrl": "assets/games/azure-blackjack-1.png",
+          "altText": "Azure BlackJack 1",
+          "title": "Azure BlackJack 1",
+          "provider": "PragmaticPlay",
+          "tags": ["Ao Vivo", "Cartas", "Blackjack", "Azure", "Mesa 1"]
+        },
+        {
+          "id": "game-azure-blackjack-2",
+          "imageUrl": "assets/games/azure-blackjack-2.png",
+          "altText": "Azure BlackJack 2",
+          "title": "Azure BlackJack 2",
+          "provider": "PragmaticPlay",
+          "tags": ["Ao Vivo", "Cartas", "Blackjack", "Azure", "Mesa 2"]
+        },
+        {
+          "id": "game-one-blackJack",
+          "imageUrl": "assets/games/one-blackjack.png",
+          "altText": "One BlackJack",
+          "title": "One BlackJack",
+          "provider": "PragmaticPlay",
+          "tags": ["Ao Vivo", "Cartas", "Blackjack", "One"]
         }
       ]
     },
     {
       "id": "category-dice",
       "iconUrl": "assets/icons/trophy.svg",
+      "title": "Dados",
       "totalGames": 4,
       "games": [
         {
@@ -246,7 +883,13 @@
           "altText": "Boom City",
           "title": "Boom City",
           "provider": "PragmaticPlay",
-          "tags": ["Ao Vivo", "Game Show", "Dados", "Multiplicador", "Estratégia"]
+          "tags": [
+            "Ao Vivo",
+            "Game Show",
+            "Dados",
+            "Multiplicador",
+            "Estratégia"
+          ]
         },
         {
           "id": "game-mega-sic-bac",
@@ -262,7 +905,13 @@
           "altText": "Mega Sic Bo",
           "title": "Mega Sic Bo",
           "provider": "PragmaticPlay",
-          "tags": ["Ao Vivo", "Dados", "Sic Bo", "Mega Multiplicador", "Popular"]
+          "tags": [
+            "Ao Vivo",
+            "Dados",
+            "Sic Bo",
+            "Mega Multiplicador",
+            "Popular"
+          ]
         },
         {
           "id": "game-sic-bo",

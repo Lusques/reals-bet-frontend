@@ -1,0 +1,27 @@
+<div class="game-category">
+  <ul class="game-category__list">
+    <li class="game-category__item">
+      <app-button
+        [variant]="isActiveButton('Todos')"
+        (onClick)="onCategoryClick('Todos')"
+      >
+        <span class="game-category__span font-body-4 font-semibold">
+          Todos
+        </span>
+      </app-button>
+    </li>
+    <li
+      class="game-category__item"
+      *ngFor="let category of gameCategory; trackBy: getTrackByCategoryId"
+    >
+      <app-button
+        [variant]="isActiveButton(category.title)"
+        (onClick)="onCategoryClick(category.title)"
+      >
+        <span class="game-category__span font-body-4 font-semibold">
+          {{ category.title }}
+        </span>
+      </app-button>
+    </li>
+  </ul>
+</div>
