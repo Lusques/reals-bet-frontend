@@ -11,6 +11,7 @@ import { GameCategory } from '@app/shared/models/game-category.model';
 export class DashboardPageComponent implements OnInit {
   allGameCategories: GameCategory[] = [];
   searchValue: string = '';
+  categorySelected: string = '';
   constructor(private apiMockService: ApiMockService) {}
 
   ngOnInit(): void {
@@ -22,6 +23,9 @@ export class DashboardPageComponent implements OnInit {
         console.error('Erro ao carregar API:', error);
       },
     });
+  }
+  updateCategorySelected(category: string) {
+    this.categorySelected = category;
   }
 
   onSearchChange(value: string) {

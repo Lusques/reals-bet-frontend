@@ -17,6 +17,7 @@ import { Game } from '@app/shared/models/game.model';
 })
 export class GameCategoryWrapperComponent implements OnInit, OnChanges {
   @Input() showAllGamesInitial: boolean = false;
+  @Input() categorySelected: string = '';
   @Input() category: GameCategory = {
     id: '',
     iconUrl: '',
@@ -26,34 +27,47 @@ export class GameCategoryWrapperComponent implements OnInit, OnChanges {
   };
   @Input() query: string = '';
   hasVisibleGame: boolean = true;
-  games: Game[] = [];
   showAllGames: boolean = false;
 
   ngOnInit(): void {
-    this.games = this.category.games;
     this.showAllGames = this.showAllGamesInitial;
   }
   ngOnChanges(changes: SimpleChanges): void {
     if (changes['category'] && changes['category'].currentValue) {
-      this.games = changes['category'].currentValue.games;
       this.showAllGames = this.showAllGamesInitial;
     } else if (changes['showAllGamesInitial']) {
       this.showAllGames = changes['showAllGamesInitial'].currentValue;
     }
-    if (changes['query']) {
+    if (changes['query'] || changes['categorySelected']) {
       this.hasVisibleGame = this.getFilteredGamesCount() > 0;
     }
   }
   getFilteredGamesCount() {
     const count = this.queryGames().length;
+    debugger;
     return count;
   }
   queryGames(): Game[] {
-    if (this.query.trim() === '') return this.games;
-    return this.games.filter((game) =>
+    const gamesFilteredByCategory = this.filterByCategory();
+    return this.filterByInput(gamesFilteredByCategory);
+  }
+  filterByInput(games: Game[]) {
+    const gamess: Game[] = games;
+    if (this.query.trim() === '') return gamess;
+    return gamess.filter((game) =>
       game.title.toLowerCase().includes(this.query.toLowerCase().trim())
     );
   }
+  filterByCategory(): Game[] {
+    if (
+      this.categorySelected === 'Todos' ||
+      this.category.title === this.categorySelected
+    ) {
+      return this.category.games;
+    }
+    return [];
+  }
+
   toggleShowAllGames(): void {
     this.showAllGames = !this.showAllGames;
   }
