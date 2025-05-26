@@ -1,0 +1,12 @@
+<label class="input-icon">
+  <figure class="input-icon__figure">
+    <img [src]="iconUrl" [alt]="altText" />
+  </figure>
+  <input
+    [placeholder]="placeholder"
+    [type]="type"
+    [(ngModel)]="value"
+    (ngModelChange)="emitInputValue($event)"
+    class="input-icon__field font-body-4"
+  />
+</label>

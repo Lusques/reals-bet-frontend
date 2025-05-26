@@ -1,0 +1,14 @@
+<section class="dashboard-banner" *ngIf="haveSlides()">
+  <ul class="dashboard-banner__list">
+    <li
+      class="dashboard-banner__item"
+      *ngFor="let slide of bannerSlides; trackBy: trackBySlideId"
+    >
+      <a class="dashboard-banner__anchor" [routerLink]="slide.link" draggable="false">
+        <figure class="dashboard-banner__figure">
+          <img [src]="slide.imageUrl" [alt]="slide.altText" draggable="false" />
+        </figure>
+      </a>
+    </li>
+  </ul>
+</section>

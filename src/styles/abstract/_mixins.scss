@@ -1,0 +1,24 @@
+$breakpoints: (
+  "xsm": 360px,
+  "sm": 576px,
+  "md": 768px,
+  "lg": 1024px,
+  "xl": 1200px,
+  "xxl": 1500px
+);
+
+@mixin generate-utility($prefix, $attribute, $modifiers, $values) {
+  @each $modifierKey, $modifierSuffix in $modifiers {
+    @each $valueKey, $value in $values {
+      .#{$prefix}#{$modifierKey}-#{$valueKey} {
+        #{$attribute}#{$modifierSuffix}: $value !important;
+      }
+    }
+  }
+}
+
+@mixin responsive($size) {
+  @media (min-width: map-get($breakpoints, $size)) {
+    @content;
+  }
+}

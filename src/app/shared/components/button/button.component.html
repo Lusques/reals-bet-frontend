@@ -1,0 +1,9 @@
+<button
+  class="button fs-7"
+  [type]="type"
+  [ngClass]="getClasses()"
+  [disabled]="disabled"
+  (click)="emitClick()"
+>
+  <ng-content></ng-content>
+</button>

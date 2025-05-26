@@ -1,0 +1,17 @@
+<div class="category-cards">
+  <ul class="category-cards__list">
+    <li
+      class="category-cards__item"
+      *ngFor="
+        let game of games | sliceOrAll : 7 : showAllGames;
+        trackBy: getTrackByCardId
+      "
+    >
+      <a>
+        <figure class="category-cards__figure">
+          <img [src]="game.imageUrl" [alt]="game.altText" draggable="false"/>
+        </figure>
+      </a>
+    </li>
+  </ul>
+</div>

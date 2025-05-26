@@ -1,0 +1,27 @@
+@use "../abstract/variables" as *;
+@use "../abstract/mixins" as *;
+
+$box-model-values: (
+  0: 0,
+  1: 0.25rem,
+  2: 0.5rem,
+  3: 1rem,
+  4: 1.5rem,
+  5: 3rem
+);
+
+$modifiers: (
+  "": "",
+  "t": "-top",
+  "b": "-bottom",
+  "s": "-left",
+  "e": "-right"
+);
+
+$null-modifier: (
+  "": ""
+);
+
+@include generate-utility("m", "margin", $modifiers, $box-model-values);
+@include generate-utility("p", "padding", $modifiers, $box-model-values);
+@include generate-utility("fs", "font-size", $null-modifier, $font-sizes);

@@ -1,0 +1,27 @@
+<header class="header">
+  <section class="header__content">
+    <div class="header__container">
+      <app-logo maxWidth="103px"></app-logo>
+      <nav class="header__navigation" *ngIf="isDesktopScreen$ | async">
+        <ul class="header__navigation-list">
+          <li class="header__navigation-item"><a>Ao vivo</a></li>
+          <li class="header__navigation-item"><a>Esportes</a></li>
+          <li class="header__navigation-item"><a>Cassino</a></li>
+          <li class="header__navigation-item header__navigation-item--active">
+            <a>Cassino ao vivo</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="header__actions">
+        <figure class="header__notifications-icon">
+          <img src="/assets/icons/bell.svg" alt="icone de notificações" />
+        </figure>
+        <app-button variant="golden-gradient" [glowing]="true">
+          Registre-se
+        </app-button>
+        <app-button variant="ghost"> Entrar </app-button>
+      </div>
+    </div>
+  </section>
+  <div class="header__placeholder"></div>
+</header>

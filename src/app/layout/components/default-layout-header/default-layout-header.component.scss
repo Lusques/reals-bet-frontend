@@ -1,0 +1,108 @@
+@use "src/styles/abstract/colors" as *;
+@use "src/styles/abstract/mixins" as *;
+.flex-align-center {
+  align-items: center;
+  display: flex;
+}
+.header {
+  background-color: $black;
+  width: 100%;
+  &__content {
+    background-color: $black;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: 99999;
+  }
+  &__container {
+    @extend .flex-align-center;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    margin: auto;
+    max-width: 1440px;
+    padding: 16px;
+    width: 100%;
+  }
+  &__navigation-list {
+    @extend .flex-align-center;
+    color: $white;
+    font-size: 12px;
+    font-weight: bold;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+  }
+  &__navigation-item {
+    cursor: pointer;
+    overflow: hidden;
+    padding: 24px 12px;
+    position: relative;
+    transition: 0.3s;
+    &::after {
+      background-color: $primary-main;
+      border-radius: 10px 10px 0 0;
+      bottom: 0;
+      content: "";
+      display: block;
+      height: 2px;
+      left: 0;
+      position: absolute;
+      transform: translateY(100%);
+      transition: 0.3s;
+      width: 100%;
+    }
+    &--active {
+      color: $primary-main;
+      &::after {
+        transform: translateY(0);
+      }
+    }
+    &:hover {
+      color: $primary-main;
+      &::after {
+        transform: translateY(0);
+      }
+    }
+  }
+  &__actions {
+    @extend .flex-align-center;
+    gap: 8px;
+  }
+  &__notifications-icon {
+    cursor: pointer;
+    max-width: 20px;
+    width: 100%;
+  }
+  &__placeholder {
+    height: 63.8px;
+    width: 100%;
+  }
+}
+
+@include responsive("xsm") {
+  .header {
+    &__container {
+      justify-content: space-between;
+    }
+  }
+}
+@include responsive("md") {
+  .header {
+    &__content {
+      background-color: rgba($black, 0.5);
+    }
+    &__container {
+      padding: 0 16px;
+    }
+    &__navigation {
+      display: block;
+    }
+    &__placeholder {
+      height: 61px;
+      width: 100%;
+    }
+  }
+}

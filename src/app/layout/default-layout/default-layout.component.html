@@ -1,0 +1,15 @@
+<div class="default-layout">
+  <app-default-layout-header></app-default-layout-header>
+  <main>
+    <router-outlet></router-outlet>
+    <app-floating-chat-button
+      *ngIf="isDesktopScreen$ | async"
+    ></app-floating-chat-button>
+  </main>
+  <app-default-layout-footer-mobile
+    *ngIf="isMobileScreen$ | async"
+  ></app-default-layout-footer-mobile>
+  <app-default-layout-footer-desktop
+    *ngIf="isDesktopScreen$ | async"
+  ></app-default-layout-footer-desktop>
+</div>
