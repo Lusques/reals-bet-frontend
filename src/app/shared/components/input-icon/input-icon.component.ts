@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { InputTypeText } from '@app/shared/types/ui.types';
 
 @Component({
@@ -11,4 +11,10 @@ export class InputIconComponent {
   @Input() altText: string = 'icon';
   @Input() placeholder: string = 'Pesquise por jogos e provedores';
   @Input() type: InputTypeText = 'text';
+  @Input() value: any = '';
+  @Output() onInputChange = new EventEmitter<string>();
+
+  emitInputValue(value: string) {
+    this.onInputChange.emit(value);
+  }
 }

@@ -10,7 +10,7 @@
       class="category-header__button font-body-4 font-semibold"
       (click)="emitButtonClick()"
     >
-      Ver mais
+      {{ isExpanded ? "Ver menos" : "Ver mais" }}
     </button>
     <p class="category-header__tag">{{ category.totalGames }}</p>
   </div>

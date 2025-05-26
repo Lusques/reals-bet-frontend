@@ -10,6 +10,7 @@ import { GameCategoryHeaderComponent } from './components/game-category-header/g
 import { GameCategoryWrapperComponent } from './components/game-category-wrapper/game-category-wrapper.component';
 import { GameCategoryCardsComponent } from './components/game-category-cards/game-category-cards.component';
 import { SliceOrAllPipe } from './pipes/slice-or-all.pipe';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,7 @@ import { SliceOrAllPipe } from './pipes/slice-or-all.pipe';
     GameCategoryCardsComponent,
     SliceOrAllPipe,
   ],
-  imports: [CommonModule, SharedRoutingModule],
+  imports: [CommonModule, SharedRoutingModule, FormsModule],
   exports: [
     ButtonComponent,
     LogoComponent,

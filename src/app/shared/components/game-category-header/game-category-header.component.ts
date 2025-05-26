@@ -14,6 +14,7 @@ export class GameCategoryHeaderComponent {
     totalGames: 0,
     games: [],
   };
+  @Input() isExpanded: boolean = false;
   @Output() onButtonClick = new EventEmitter<void>();
 
   emitButtonClick() {

@@ -9,6 +9,8 @@ import { Game } from '@app/shared/models/game.model';
 export class GameCategoryCardsComponent {
   @Input() games: Game[] = [];
 
+  @Input() showAllGames: boolean = false;
+
   getTrackByCardId(index: number, game: Game) {
     return game.id ? `${game.id}-${index}` : `${index}`;
   }
