@@ -1,6 +1,7 @@
 <div *ngIf="hasVisibleGame">
   <div class="container">
     <app-game-category-header
+      [count]="getFilteredGamesCount()"
       [category]="category"
       [isExpanded]="showAllGames"
       (onButtonClick)="toggleShowAllGames()"

@@ -41,8 +41,12 @@ export class GameCategoryWrapperComponent implements OnInit, OnChanges {
       this.showAllGames = changes['showAllGamesInitial'].currentValue;
     }
     if (changes['query']) {
-      this.hasVisibleGame = this.queryGames().length > 0;
+      this.hasVisibleGame = this.getFilteredGamesCount() > 0;
     }
+  }
+  getFilteredGamesCount() {
+    const count = this.queryGames().length;
+    return count;
   }
   queryGames(): Game[] {
     if (this.query.trim() === '') return this.games;
